@@ -9,9 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var soundManager = SEManager()
+    
+    
+    //コメント追加
     override func viewDidLoad() {
         super.viewDidLoad()
+        soundManager.sePlay("n25.mp3")
+        
+        
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
